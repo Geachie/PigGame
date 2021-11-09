@@ -43,7 +43,7 @@ const switchPlayer = () => {
   player0El.classList.toggle('player--active');
   player1El.classList.toggle('player--active');
 };
-// Rolling dice functionality
+// Rolling dice function
 btnRoll.addEventListener('click', function () {
   if (playing) {
     // 1. Generating random number
